@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.connect-section {
+    background: linear-gradient(
+        rgba(255,255,255,0.85),
+        rgba(255,255,255,0.85)
+    ),
+    url("background.jpg") center/cover no-repeat;
+    padding: 60px 20px;
+    border: 1px solid #ddd;
+}
+
+.connect-box {
+    text-align: center;
+}
+
+.icon {
+    font-size: 48px;
+    color: #8b0015;
+    margin-bottom: 10px;
+}
+
+.connect-box h2 {
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.email-form {
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    margin: auto;
+}
+
+.email-form input {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.email-form button {
+    background: #8b0015;
+    color: #fff;
+    border: none;
+    padding: 0 25px;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.email-form button:hover {
+    background: #a00018;
+}
