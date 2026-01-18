@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dr Moonje Institute</title>
+    <style>
+
+          .menu{
+            background:#b30000;
+            padding:10px;
+            text-align:right;
+        }
+        .menu a{
+            color:white;
+            margin:0 10px;
+            text-decoration:none;
+            font-weight:bold;
+        }
+ body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+        }
+
+        .contact-box {
+            width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            text-align: center;
+            color: #b30000;
+            margin-bottom: 25px;
+        }
+
+        .contact-container {
+            display: flex;
+            gap: 30px;
+        }
+
+        .contact-info, .contact-form {
+            width: 50%;
+        }
+
+        .contact-info p {
+            margin: 10px 0;
+            font-size: 16px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        textarea {
+            height: 100px;
+            resize: none;
+        }
+
+        input[type="submit"] {
+            background: #b30000;
+            color: white;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background: #800000;
+        }
+
+        .map {
+            margin-top: 25px;
+        }
+
+        .map iframe {
+            width: 100%;
+            height: 250px;
+            border: 0;
+            border-radius: 8px;
+        }
+
+        @media(max-width: 768px) {
+            .contact-container {
+                flex-direction: column;
+            }
+            .contact-info, .contact-form {
+                width: 100%;
+            }
+            .contact-box {
+                width: 95%;
+            }
+        }
+
+        /* Footer */
+        .footer{
+            background:black;
+            display:flex;
+            padding:20px;
+            color:white;
+        }
+        .footer div{
+            width:20%;
+        }
+        .footer h4{
+            margin-top:0;
+        }
+        .footer p{
+            font-size:13px;
+            margin:5px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Header -->
+
+    <meta charset="UTF-8">
+    <title>College Header</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+    <!-- Left Logo -->
+    <div class="logo left">
+        <img src="D:\my website\images\Moonje-Institute.png" alt="D:\my website\NAAC-removebg-preview.png">
+    </div>
+
+    <!-- Center Text -->
+    <div class="title">
+<centre>
+        <h1>Dr. Moonje Institute</h1>
+        <h2>of Management & Computer Studies, Nashik</h2>
+        <p>AFFILIATE TO SPPU | AICTE APPROVED | NAAC WITH B++</p>
+    </div>
+
+    <!-- Right Logo -->
+    <div class="logo right">
+        <img src="D:\my website\images\NAAC.png" alt="NAAC B++">
+    </div>
+</div>
+
+</body>
+</html>
+
+<!-- Menu -->
+<div class="menu">
+    <a href="index.html">Home</a>
+    <a href="#">About Project</a>
+    <a href="gallery-box.html">Gallery</a>
+    <a href="Register.html">Register</a>
+    <a href="Registration.html">Login</a>
+    <a href="#">Contact Us</a>
+</div>
+
+
+<!-- contact -->
+
+<div class="contact-box">
+    <h2>Contact Us</h2>
+
+    <div class="contact-container">
+        <!-- Contact Information -->
+        <div class="contact-info">
+            <p><strong>📍 Address:</strong><br>
+            Dr. Moonje Institute of Management & Computer Studies,<br>
+            Nashik, Maharashtra</p>
+
+            <p><strong>📞 Phone:</strong> +91 79726 4****</p>
+            <p><strong>📧 Email:</strong> info@moonjeinstitute.com</p>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <form>
+                <label>Name</label>
+                <input type="text" placeholder="Your Name" required>
+
+                <label>Email</label>
+                <input type="email" placeholder="Your Email" required>
+
+                <label>Message</label>
+                <textarea placeholder="Your Message" required></textarea>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+    </div>
+
+    <!-- Google Map -->
+    <div class="map">
+        <iframe 
+            src="https://www.google.com/maps?q=Nashik,Maharashtra&output=embed">
+        </iframe>
+    </div>
+</div>
+  
+
+<!-- Footer -->
+<div class="footer">
+
+    <div>
+        <h4>Services</h4>
+        <p>Admissions</p>
+        <p>Library</p>
+        <p>Transport</p>
+        <p>Sports</p>
+    </div>
+
+    <div>
+        <h4>About</h4>
+        <p>History</p>
+        <p>Vision</p>
+        <p>Mission</p>
+    </div>
+
+    <div>
+        <h4>Course</h4>
+        <p>BCA</p>
+        <p>BBA</p>
+        <p>MCA</p>
+        <p>MBA</p>
+    </div>
+
+    <div>
+        <h4>Contacts</h4>
+        <p>Phone</p>
+        <p>Email</p>
+        <p>Address</p>
+    </div>
+
+    <div>
+        <h4>Partners</h4>
+        <p>Bmc</p>
+        <p>Institutes</p>
+        <p>Clubs</p>
+    </div>
+
+</div>
+
+</body>
+</html>
